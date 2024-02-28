@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class naik35 {
+
+    public static void main(String[] args) {
+        String name;
+        int account_num;
+        int amount;
+
+        System.out.println("creat an account");
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("enter name");
+        name = scanner.next();
+        System.out.println("enter account_num");
+        account_num = scanner.nextInt();
+        System.out.println("enter amount");
+        amount = scanner.nextInt();
+
+        if(amount==0){
+            System.out.println("u have no money in your account");
+        }
+        else{
+            System.out.println("name = "+name);
+            System.out.println("account_num = "+account_num);
+            System.out.println("amount = "+amount);
+        }
+
+    }
+}
